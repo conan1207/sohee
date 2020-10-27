@@ -1,0 +1,18 @@
+.scrollTop {
+  position: fixed;
+  bottom: 2rem;
+  right: 0;
+  cursor: pointer;
+  transition: all ease 0.4s;
+  opacity: 0.5;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  .scrollTop {
+    bottom: 5rem;
+  }
+}
