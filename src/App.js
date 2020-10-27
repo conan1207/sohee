@@ -19,9 +19,9 @@ const App = () => {
     <Router>
       <Header />
       <Switch>
-        <Route exact path="/" component={About} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/contact" component={Contact} />
+        <Route exact path="/sohee/" component={About} />
+        <Route path="/sohee/projects" component={Projects} />
+        <Route path="/sohee/contact" component={Contact} />
         <Route component={NotFound} />
       </Switch>
       <ScrollTop />
