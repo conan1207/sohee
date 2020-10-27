@@ -11,10 +11,10 @@ const Projects = () => {
     const fetchProjects = async () => {
       try {
         setError(null);
-        setnpProjects(null);
+        setProjects(null);
         setLoading(true);
         const response = await axios.get(
-          "../data/data.json"
+          "./data/data.json"
         );
         setProjects(response.data);
       } catch (e) {
