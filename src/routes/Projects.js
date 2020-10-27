@@ -14,7 +14,7 @@ const Projects = () => {
         setProjects(null);
         setLoading(true);
         const response = await axios.get(
-          "./data/data.json"
+          "./sohee/data/data.json"
         );
         setProjects(response.data);
       } catch (e) {
