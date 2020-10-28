@@ -39,9 +39,9 @@ const Projects = () => {
               <img src={project.image} alt={project.title}/>
               <div className="project_txt">
                 <h2>{project.title}</h2>
-                <p>{project.category}</p>
-                <p>{project.participation}</p>
-                <p>{project.description}</p>
+                <p>- {project.category}</p>
+                <p>- {project.participation}</p>
+                <p>- {project.description}</p>
               </div>
             </a>
           </li>

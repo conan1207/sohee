@@ -18,7 +18,7 @@ const ScrollTop = () => {
     window.scrollTo({top: 0, behavior: 'smooth'});
   };
 
-  window.addEventListener('scroll', checkScrollTop)
+  window.addEventListener('scroll', checkScrollTop);
 
     return (
         <div>
