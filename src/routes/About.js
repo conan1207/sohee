@@ -1,8 +1,15 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import AOS from "aos";
 import "../css/About.scss";
 
-const About = () => {
+const About = ({ history }) => {
+  
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <div className="wrap">
       <section className="about_title">
@@ -132,56 +139,65 @@ const About = () => {
       </section>
       <section className="about_intro">
         <article>
-          <h3>"끝까지 놓지 않는 집착과 같은 집념"</h3>
-          <h3>"공감을 바탕으로 한 소통"</h3>
-          <h3>"한결 같지만, 늘 새로운 사람"</h3>
-          <p className="about_txt">
+          <h3 data-aos={"zoom-in"}>"끝까지 놓지 않는 집착과 같은 집념"</h3>
+          <h3 data-aos={"zoom-in"}>"공감을 바탕으로 한 소통"</h3>
+          <h3 data-aos={"zoom-in"}>"한결 같지만, 늘 새로운 사람"</h3>
+          <p className="about_txt" data-aos={"fade-up"} data-aos-duration={"1000"}>
+            <b>#웹표준 #크로스브라우징 #반응형 #동적모션 #프런트엔드</b><br /><br />
             안녕하세요! 퍼블리셔 3년차 권소희입니다.<br />
-            현재, 대학교를 대상으로 경력개발시스템(채용정보 연계, 프로그램 신청, 상담 등)과<br />
-            공공기관·기업 채용시스템(서류 접수, 인적성 검사) 사이트를 디자인하고 퍼블리싱
-            하고 있습니다.<br />저는 소통을 전제로 본인의 의견을 피력할 수 있는
-            사람입니다.<br />그리고 어떻게 하는 것이 고객을 만족시키고 무엇을 하는
-            것이 회사를 위한 일인지 고민합니다.<br />
-            팀원과의 협력, 고객사들의 원활한 소통으로 안정적인 서비스를 제공합니다.<br />
-            화면단을 믿고 맡길 수 있는 퍼블리셔, 나아가 프런트엔드 개발자가 되고자 합니다.
+            현재, <strong>대학교를 대상으로 경력개발시스템</strong>(채용정보 연계, 프로그램 신청, 상담 등)과<br />
+            <strong>공공기관·기업 채용시스템</strong>(서류 접수, 인적성 검사) 사이트를 디자인하고 퍼블리싱
+            하고 있습니다.<br /><br />
+            기기에 맞게 마크업 하고 스타일 입힐 수 있습니다.<br />
+            새로운 기술과 라이브러리를 적용하는 것을 좋아하지만 안정적인 서비스 제공을 우선으로 합니다.<br />
+            활달함과 뛰어난 공감 능력으로 이기적이지 않고 함께 할 수 있는 사람으로 통합니다.<br />
+            어떻게 하는 것이 고객을 만족시키고 무엇을 하는 것이 회사를 위한 일인지 고민합니다.<br />
+            화면단을 믿고 맡길 수 있는 퍼블리셔, 나아가 프런트엔드 개발자가 되고자 합니다.<br /><br />
+            자전과 공전으로 매일 다른 모습을 보여주는 달과 같은 사람.<br />
+            걸음이 느리더라도 뒤로 가지는 않는 사람.<br />
+            아래는 간단한 프로필입니다🧚🏻‍♀️
           </p>
         </article>
         <article>
-          <h2>경력사항</h2>
-          <p>㈜엔잡얼라이언스 기술연구소 재직중</p>
-          <p>대학교 경력개발시스템, 채용 관련 사이트 디자인 및 퍼블리싱 담당</p>
+          <h2 data-aos={"zoom-in"}>경력사항</h2>
+          <p data-aos={"fade-up"} data-aos-duration={"1000"}>㈜엔잡얼라이언스 기술연구소 재직중<br/>
+         대학교 경력개발시스템, 채용 관련 사이트 디자인 및 퍼블리싱 담당</p>
   
-          <h2>학력사항</h2>
-          <p>가천대학교 국어국문학과 졸업</p>
-          <p>
+          <h2 data-aos={"zoom-in"}>학력사항</h2>
+          <p data-aos={"fade-up"} data-aos-duration={"1000"}>가천대학교 국어국문학과 졸업<br/>
             인천연희직업전문학교 디지털컨버전스(UI/UX 엔지니어링, 프런트엔드)
             양성과정 수료
           </p>
 
-          <h2>자격사항</h2>
-          <p>정보처리기사</p>
-          <p>웹디자인기능사</p>
-          <p>컴퓨터그래픽스운용기능사</p>
+          <h2 data-aos={"zoom-in"}>자격사항</h2>
+          <p data-aos={"fade-up"} data-aos-duration={"1000"}>정보처리기사<br/>
+          웹디자인기능사<br/>
+          컴퓨터그래픽스운용기능사</p>
 
-          <h2>주요기술</h2>
-          <FontAwesomeIcon icon={["fab", "html5"]} size="2x" color="#ffb70d" />
-          <FontAwesomeIcon
-            icon={["fab", "css3-alt"]}
-            size="2x"
-            color="#ffb70d"
-          />
-          <FontAwesomeIcon
-            icon={["fab", "js-square"]}
-            size="2x"
-            color="#ffb70d"
-          />
-          <FontAwesomeIcon icon={["fab", "sass"]} size="2x" color="#ffb70d" />
-          <FontAwesomeIcon
-            icon={["fab", "bootstrap"]}
-            size="2x"
-            color="#ffb70d"
-          />
-          <FontAwesomeIcon icon={["fab", "react"]} size="2x" color="#ffb70d" />
+          <h2 data-aos={"zoom-in"}>주요기술</h2>
+          <p data-aos={"fade-up"} data-aos-duration={"1000"}>
+            <FontAwesomeIcon icon={["fab", "html5"]} size="2x" color="#E35226" />
+            <FontAwesomeIcon
+              icon={["fab", "css3-alt"]}
+              size="2x"
+              color="#297EC2"
+            />
+            <FontAwesomeIcon
+              icon={["fab", "js-square"]}
+              size="2x"
+              color="#F4D048"
+            />
+            <FontAwesomeIcon icon={["fab", "sass"]} size="2x" color="#C06594" />
+            <FontAwesomeIcon
+              icon={["fab", "bootstrap"]}
+              size="2x"
+              color="#654798"
+            />
+            <FontAwesomeIcon icon={["fab", "react"]} size="2x" color="#45D4F6" />
+          </p>
+          <button type="button" onClick={() => {
+            history.push("/Contact");
+          }}>연락처 바로가기</button>
         </article>
       </section>
     </div>

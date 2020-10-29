@@ -21,8 +21,8 @@ const ScrollTop = () => {
   window.addEventListener('scroll', checkScrollTop);
 
     return (
-        <div>
-            <FontAwesomeIcon icon={faArrowAltCircleUp} className="scrollTop" onClick={scrollTop} size="3x" style={{display: showScroll ? 'block' : 'none'}} />
+        <div className="scrollTop" onClick={scrollTop} style={{display: showScroll ? 'block' : 'none'}} >
+            <FontAwesomeIcon icon={faArrowAltCircleUp} size="3x" color="#CC6F30" />
         </div>
     );
 };

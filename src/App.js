@@ -12,11 +12,13 @@ import Projects from "./routes/Projects";
 import Contact from "./routes/Contact";
 import NotFound from "./routes/NotFound";
 
+import "./css/aos/aos.scss"
+
 library.add(fab);
 
 const App = () => {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename="/sohee">
       <Header />
       <Switch>
         <Route exact path="/" component={About} />

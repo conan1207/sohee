@@ -1,8 +1,10 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
+import AOS from "aos";
 import "../css/Projects.scss";
 
 const Projects = () => {
+  
   const [projects, setProjects] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -26,15 +28,20 @@ const Projects = () => {
     fetchProjects();
   }, []);
 
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   if (loading) return <p>로딩중...</p>;
   if (error) return <p>불러올 수 없습니다. 에러가 발생했습니다.</p>;
   if (!projects) return null;
-  
+
   return (
     <section className="project_list">
       <ul>
         {projects.map(project => (
-          <li>
+          <li data-aos={"flip-up"} data-aos-delay={"50"} data-aos-duration={"1000"}>
             <a href={project.link} target="_blank" rel="noopener noreferrer" title={project.title + " 새 창 열림"}>
               <img src={project.image} alt={project.title}/>
               <div className="project_txt">

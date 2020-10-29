@@ -1,7 +1,6 @@
 @font-face {
   font-family: "GmarketSansLight";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff")
-    format("woff");
+  src: url("./font/GmarketSansLight.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -20,7 +19,8 @@ p,
 ul,
 li,
 a,
-span {
+span,
+button {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -28,7 +28,8 @@ span {
   color: #333;
   font-size: 16px;
   font-family: "GmarketSansLight", sans-serif;
-  font-weight: 400;
+  line-height: 130%;
+  font-weight: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

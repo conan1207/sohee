@@ -44,3 +44,18 @@ header {
     }
   }
 }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  header {
+    .gnb {
+      width: 10%;
+    }
+  }
+  @media screen and (max-width: 48rem) {
+    header {
+      .gnb {
+        width: 3.3%;
+      }
+    }
+  }
+}
