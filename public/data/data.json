@@ -3,7 +3,7 @@
     "title": "동국대학교",
     "category": "경력개발시스템",
     "participation": "퍼블리싱 100%",
-    "description": "사이트 오픈, Chart.js 활용",
+    "description": "신규 제작, Chart.js",
     "image": "./img/project01.jpg",
     "link" : "http://wdg.jobschool.co.kr"
   },{
@@ -24,7 +24,7 @@
     "title": "제주국제대학교",
     "category": "경력개발시스템",
     "participation": "디자인, 퍼블리싱 100%",
-    "description": "사이트 오픈 및 리뉴얼",
+    "description": "신규 제작 및 리뉴얼",
     "image": "./img/project04.jpg",
     "link" : "https://job.jeju.ac.kr"
   },{
@@ -38,21 +38,21 @@
     "title": "제주대학교 대학원",
     "category": "성과관리시스템",
     "participation": "퍼블리싱 50%",
-    "description": "사이트 오픈",
+    "description": "신규 제작",
     "image": "./img/project06.jpg",
     "link" : "http://gspm.jejunu.ac.kr"
   },{
     "title": "제주대학교",
     "category": "현장실습시스템",
     "participation": "기획 80%, 퍼블리싱 50%",
-    "description": "사이트 오픈",
+    "description": "신규 제작",
     "image": "./img/project07.jpg",
     "link" : "http://clip.jejunu.ac.kr/fieldjob_new/stu/"
   },{
     "title": "수성대학교",
     "category": "현장실습시스템",
     "participation": "퍼블리싱 50%",
-    "description": "사이트 오픈",
+    "description": "사이트 리뉴얼",
     "image": "./img/project08.jpg",
     "link" : "#none"
   },{
@@ -66,21 +66,21 @@
     "title": "대구도시공사",
     "category": "채용시스템",
     "participation": "디자인 20%, 퍼블리싱 50%",
-    "description": "사이트 오픈",
+    "description": "신규 제작",
     "image": "./img/project10.jpg",
     "link" : "https://duco.hrsystem.co.kr"
   },{
     "title": "Marvellous",
     "category": "V-smart Test",
     "participation": "퍼블리싱 100%",
-    "description": "사이트 오픈(반응형)",
+    "description": "신규 제작(반응형)",
     "image": "./img/project11.jpg",
     "link" : "http://aptitude.hrtest.net/nat/view/marvellous"
   },{
     "title": "우아한형제들",
     "category": "인적성검사",
     "participation": "디자인, 퍼블리싱 100%",
-    "description": "사이트 오픈(반응형)",
+    "description": "신규 제작(반응형)",
     "image": "./img/project12.jpg",
     "link" : "http://aptitude.hrtest.net/jr/view/woowahan"
   },{
