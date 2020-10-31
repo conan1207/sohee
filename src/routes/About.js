@@ -157,33 +157,33 @@ const About = ({ history }) => {
             화면단을 믿고 맡길 수 있는 퍼블리셔, 나아가 프런트엔드 개발자가 되고자 합니다.
           </p>
           <p className="about_txt" data-aos={"fade-up"} data-aos-duration={"1000"}>
-            자전과 공전으로 매일 다른 모습을 보여주는 달과 같은 사람🌚<br />
-            걸음이 느릴 때가 있더라도 뒤로 가지는 않는 사람🚶‍♀️<br />
-            아래는 간단한 프로필입니다🧚🏻‍♀️
+            자전과 공전으로 매일 다른 모습을 보여주는 달과 같은 사람<span role="img" aria-label="New Moon Face">🌚</span><br />
+            걸음이 느릴 때가 있더라도 뒤로 가지는 않는 사람<span role="img" aria-label="Woman Walking: Light Skin Tone">🚶🏻‍♀️</span><br />
+            아래는 간단한 프로필입니다<span role="img" aria-label="Woman Fairy: Light Skin Tone">🧚🏻‍♀️</span>
           </p>          
         </article>
         <article>
-          <h2 data-aos={"zoom-in"}>👩‍💻 경력사항</h2>
+          <h2 data-aos={"zoom-in"}><span role="img" aria-label="Woman Technologist: Light Skin Tone">👩🏻‍💻</span> 경력사항</h2>
           <p data-aos={"fade-up"} data-aos-duration={"1000"}>
             ㈜엔잡얼라이언스 기술연구소 재직중<br/>
             대학교 경력개발시스템, 채용 관련 사이트 디자인 및 퍼블리싱 담당
           </p>
   
-          <h2 data-aos={"zoom-in"}>🏫 학력사항</h2>
+          <h2 data-aos={"zoom-in"}><span role="img" aria-label="School">🏫</span> 학력사항</h2>
           <p data-aos={"fade-up"} data-aos-duration={"1000"}>
             가천대학교 국어국문학과 졸업<br/>
             인천연희직업전문학교 디지털컨버전스(UI/UX 엔지니어링, 프런트엔드)
             양성과정 수료
           </p>
 
-          <h2 data-aos={"zoom-in"}>📜 자격사항</h2>
+          <h2 data-aos={"zoom-in"}><span role="img" aria-label="Writing Hand: Light Skin Tone">✍🏻</span> 자격사항</h2>
           <p data-aos={"fade-up"} data-aos-duration={"1000"}>
             정보처리기사<br/>
             웹디자인기능사<br/>
             컴퓨터그래픽스운용기능사
           </p>
 
-          <h2 data-aos={"zoom-in"}>💻 주요기술</h2>
+          <h2 data-aos={"zoom-in"}><span role="img" aria-label="Laptop">💻</span> 주요기술</h2>
           <p data-aos={"fade-up"} data-aos-duration={"1000"}>
             <FontAwesomeIcon icon={["fab", "html5"]} size="2x" color="#E35226" />
             <FontAwesomeIcon
