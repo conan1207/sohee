@@ -136,6 +136,7 @@ const About = ({ history }) => {
             className="stroke stroke_three"
           />
         </svg>
+        <p>▼</p>
       </section>
       <section className="about_intro">
         <article>
@@ -151,6 +152,7 @@ const About = ({ history }) => {
           </p>
           <p className="about_txt" data-aos={"fade-up"} data-aos-duration={"1000"}>
             기기에 맞게 마크업 하고 스타일 입힐 수 있습니다.<br />
+            화면단 기능에 맞게 JS코드를 짤 수 있습니다.<br />
             안정적인 서비스 제공을 우선으로 하며 새로운 기술·라이브러리를 적용하는 것을 좋아합니다.<br />
             활달함과 뛰어난 공감 능력으로 이기적이지 않고 함께 할 수 있는 사람으로 통합니다.<br />
             어떻게 하는 것이 고객을 만족시키고 무엇을 하는 것이 회사를 위한 일인지 고민합니다.<br />
