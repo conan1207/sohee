@@ -71,13 +71,19 @@
   }
 }
 
+.notice_txt {
+  margin-bottom: 4em;
+  padding: 1em 0.5em;
+  font-size: 0.9em;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: -0.05em;
+}
+
 @media screen and (max-width: 48rem) {
   .project_list {
     ul {
       margin-top: 1em;
-    }
-    li:last-child {
-      margin-bottom: 3.5em;
     }
   }
 }

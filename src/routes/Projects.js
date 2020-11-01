@@ -38,10 +38,11 @@ const Projects = () => {
   if (!projects) return null;
 
   return (
+    <div>
     <section className="project_list">
       <ul>
         {projects.map(project => (
-          <li data-aos={"flip-up"} data-aos-delay={"50"} data-aos-duration={"1000"}>
+          <li data-aos={"flip-up"} data-aos-delay={"50"} data-aos-duration={"1000"} key={project.title}>
             <a href={project.link} target="_blank" rel="noopener noreferrer" title={project.title + " 새 창 열림"}>
               <img src={project.image} alt={project.title}/>
               <div className="project_txt">
@@ -55,6 +56,10 @@ const Projects = () => {
         ))}        
       </ul>
     </section>
+    <p class="notice_txt">
+      <span role="img" aria-label="Exclamation Mark">❗</span> 일부 사이트는 리뉴얼 됐거나 보안상의 이유로 접근이 제한될 수 있습니다. <span role="img" aria-label="Exclamation Mark">❗</span>
+    </p>
+    </div>
   );
 };
 

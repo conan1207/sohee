@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState} from "react";
 import { faArrowAltCircleUp } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "../css/ScrollTop.scss";
@@ -15,13 +15,13 @@ const ScrollTop = () => {
   };
 
   const scrollTop = () =>{
-    window.scrollTo({top: 0, behavior: 'smooth'});
+    window.scrollTo({top: 0, behavior: "smooth"});
   };
 
-  window.addEventListener('scroll', checkScrollTop);
+  window.addEventListener("scroll", checkScrollTop);
 
     return (
-        <div className="scrollTop" onClick={scrollTop} style={{display: showScroll ? 'block' : 'none'}} >
+        <div className="scrollTop" onClick={scrollTop} style={{display: showScroll ? "block" : "none"}} >
             <FontAwesomeIcon icon={faArrowAltCircleUp} size="3x" color="#CC6F30" />
         </div>
     );
