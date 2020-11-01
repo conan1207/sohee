@@ -167,7 +167,7 @@ const About = ({ history }) => {
         <article>
           <h2 data-aos={"zoom-in"}><span role="img" aria-label="Woman Technologist: Light Skin Tone">👩🏻‍💻</span> 경력사항</h2>
           <p data-aos={"fade-up"} data-aos-duration={"1000"}>
-            ㈜엔잡얼라이언스 기술연구소 재직중<br/>
+            <b>㈜엔잡얼라이언스 기술연구소 재직중</b>(2018.07 ~)<br/>
             대학교 경력개발시스템, 채용 관련 사이트 디자인 및 퍼블리싱 담당
           </p>
   
